@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A6C9D2B29F3E8B300AD6B29 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C9D2A29F3E8B300AD6B29 /* Env.swift */; };
+		2A700C6B29ED3241003E6048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700C6A29ED3241003E6048 /* AppDelegate.swift */; };
+		2A700C6D29ED3241003E6048 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700C6C29ED3241003E6048 /* SceneDelegate.swift */; };
+		2A700C7429ED3243003E6048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A700C7329ED3243003E6048 /* Assets.xcassets */; };
+		2A700C8029ED3FD5003E6048 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2A700C7F29ED3FD5003E6048 /* SnapKit */; };
+		2A700C8729ED4E26003E6048 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A700C8629ED4E26003E6048 /* Launch Screen.storyboard */; };
+		2A700C8929ED4F0C003E6048 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700C8829ED4F0C003E6048 /* RootViewController.swift */; };
+		2A700C8B29ED5978003E6048 /* SocialLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700C8A29ED5978003E6048 /* SocialLoginButton.swift */; };
+		2A700C8D29ED7DFC003E6048 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700C8C29ED7DFC003E6048 /* SubmitButton.swift */; };
+		2A700C9329ED91A5003E6048 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700C9229ED91A5003E6048 /* LoginViewController.swift */; };
+		2A700C9529EDB689003E6048 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700C9429EDB689003E6048 /* UIViewController+.swift */; };
+		2A700C9929EE9CB8003E6048 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700C9829EE9CB8003E6048 /* UIView+.swift */; };
+		2A700C9B29EEAE14003E6048 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700C9A29EEAE14003E6048 /* UITextField+.swift */; };
+		2A700C9D29EED088003E6048 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700C9C29EED088003E6048 /* Constants.swift */; };
+		2A700C9F29EEEC86003E6048 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700C9E29EEEC86003E6048 /* String+.swift */; };
+		2A700CA129EFDB6D003E6048 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A700CA029EFDB6D003E6048 /* GoogleService-Info.plist */; };
+		2A700CA429EFDD29003E6048 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2A700CA329EFDD29003E6048 /* FirebaseAuth */; };
+		2A700CA629EFE770003E6048 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700CA529EFE770003E6048 /* ProfileViewController.swift */; };
+		2A700CA929F003BC003E6048 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 2A700CA829F003BC003E6048 /* GoogleSignIn */; };
+		2A700CAE29F132A4003E6048 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2A700CAD29F132A4003E6048 /* Kingfisher */; };
+		2A700CB229F153EE003E6048 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2A700CB129F153EE003E6048 /* KakaoSDKAuth */; };
+		2A700CB429F153EE003E6048 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 2A700CB329F153EE003E6048 /* KakaoSDKCommon */; };
+		2A700CB629F153EE003E6048 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 2A700CB529F153EE003E6048 /* KakaoSDKUser */; };
+		2A700CB929F26AC2003E6048 /* NaverInfoResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700CB829F26AC2003E6048 /* NaverInfoResponseModel.swift */; };
+		2A700CBC29F27FB5003E6048 /* FormInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700CBB29F27FB5003E6048 /* FormInput.swift */; };
+		2A700CBE29F28DDE003E6048 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A700CBD29F28DDE003E6048 /* SignupViewController.swift */; };
+		2E1FB6D37E0171D4A49FB40E /* Pods_AuthPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB939842560BE8DF780CFEBC /* Pods_AuthPro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11DDBE24A0F0E839F6CB3C5E /* Pods-AuthPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthPro.debug.xcconfig"; path = "Target Support Files/Pods-AuthPro/Pods-AuthPro.debug.xcconfig"; sourceTree = "<group>"; };
+		2A6C9D2A29F3E8B300AD6B29 /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		2A700C6729ED3241003E6048 /* AuthPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A700C6A29ED3241003E6048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A700C6C29ED3241003E6048 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A700C7329ED3243003E6048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A700C7829ED3243003E6048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A700C8629ED4E26003E6048 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2A700C8829ED4F0C003E6048 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		2A700C8A29ED5978003E6048 /* SocialLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginButton.swift; sourceTree = "<group>"; };
+		2A700C8C29ED7DFC003E6048 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		2A700C9229ED91A5003E6048 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2A700C9429EDB689003E6048 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		2A700C9829EE9CB8003E6048 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		2A700C9A29EEAE14003E6048 /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		2A700C9C29EED088003E6048 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2A700C9E29EEEC86003E6048 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		2A700CA029EFDB6D003E6048 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2A700CA529EFE770003E6048 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2A700CAF29F14A6D003E6048 /* AuthPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AuthPro.entitlements; sourceTree = "<group>"; };
+		2A700CB829F26AC2003E6048 /* NaverInfoResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverInfoResponseModel.swift; sourceTree = "<group>"; };
+		2A700CBB29F27FB5003E6048 /* FormInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormInput.swift; sourceTree = "<group>"; };
+		2A700CBD29F28DDE003E6048 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		768692B9D16C0160A9EB5B19 /* Pods-AuthPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthPro.release.xcconfig"; path = "Target Support Files/Pods-AuthPro/Pods-AuthPro.release.xcconfig"; sourceTree = "<group>"; };
+		FB939842560BE8DF780CFEBC /* Pods_AuthPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A700C6429ED3241003E6048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A700C8029ED3FD5003E6048 /* SnapKit in Frameworks */,
+				2A700CA429EFDD29003E6048 /* FirebaseAuth in Frameworks */,
+				2A700CA929F003BC003E6048 /* GoogleSignIn in Frameworks */,
+				2A700CB629F153EE003E6048 /* KakaoSDKUser in Frameworks */,
+				2A700CAE29F132A4003E6048 /* Kingfisher in Frameworks */,
+				2A700CB429F153EE003E6048 /* KakaoSDKCommon in Frameworks */,
+				2A700CB229F153EE003E6048 /* KakaoSDKAuth in Frameworks */,
+				2E1FB6D37E0171D4A49FB40E /* Pods_AuthPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A6C9D2929F3E73F00AD6B29 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2A700C9C29EED088003E6048 /* Constants.swift */,
+				2A6C9D2A29F3E8B300AD6B29 /* Env.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2A700C5E29ED3241003E6048 = {
+			isa = PBXGroup;
+			children = (
+				2A700C6929ED3241003E6048 /* AuthPro */,
+				2A700C6829ED3241003E6048 /* Products */,
+				2AD1C720F27CB5ADCE58DCA4 /* Pods */,
+				B79AA6EBF9540C5B13082B33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A700C6829ED3241003E6048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A700C6729ED3241003E6048 /* AuthPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A700C6929ED3241003E6048 /* AuthPro */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C9D2929F3E73F00AD6B29 /* Utils */,
+				2A700CAF29F14A6D003E6048 /* AuthPro.entitlements */,
+				2A700C6A29ED3241003E6048 /* AppDelegate.swift */,
+				2A700C6C29ED3241003E6048 /* SceneDelegate.swift */,
+				2A700C7329ED3243003E6048 /* Assets.xcassets */,
+				2A700C7829ED3243003E6048 /* Info.plist */,
+				2A700CA029EFDB6D003E6048 /* GoogleService-Info.plist */,
+				2A700C8629ED4E26003E6048 /* Launch Screen.storyboard */,
+				2A700CBA29F27F56003E6048 /* Views */,
+				2A700CB729F26A92003E6048 /* Models */,
+				2A700C8E29ED85E6003E6048 /* Extensions */,
+				2A700C8329ED4240003E6048 /* Scenes */,
+			);
+			path = AuthPro;
+			sourceTree = "<group>";
+		};
+		2A700C8329ED4240003E6048 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2A700C8829ED4F0C003E6048 /* RootViewController.swift */,
+				2A700C9229ED91A5003E6048 /* LoginViewController.swift */,
+				2A700CA529EFE770003E6048 /* ProfileViewController.swift */,
+				2A700CBD29F28DDE003E6048 /* SignupViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2A700C8E29ED85E6003E6048 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A700C9429EDB689003E6048 /* UIViewController+.swift */,
+				2A700C9829EE9CB8003E6048 /* UIView+.swift */,
+				2A700C9A29EEAE14003E6048 /* UITextField+.swift */,
+				2A700C9E29EEEC86003E6048 /* String+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2A700CB729F26A92003E6048 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A700CB829F26AC2003E6048 /* NaverInfoResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A700CBA29F27F56003E6048 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A700C8A29ED5978003E6048 /* SocialLoginButton.swift */,
+				2A700C8C29ED7DFC003E6048 /* SubmitButton.swift */,
+				2A700CBB29F27FB5003E6048 /* FormInput.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AD1C720F27CB5ADCE58DCA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11DDBE24A0F0E839F6CB3C5E /* Pods-AuthPro.debug.xcconfig */,
+				768692B9D16C0160A9EB5B19 /* Pods-AuthPro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B79AA6EBF9540C5B13082B33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB939842560BE8DF780CFEBC /* Pods_AuthPro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A700C6629ED3241003E6048 /* AuthPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A700C7B29ED3243003E6048 /* Build configuration list for PBXNativeTarget "AuthPro" */;
+			buildPhases = (
+				56FADC12331352113D0E783F /* [CP] Check Pods Manifest.lock */,
+				2A700C6329ED3241003E6048 /* Sources */,
+				2A700C6429ED3241003E6048 /* Frameworks */,
+				2A700C6529ED3241003E6048 /* Resources */,
+				3AFFA923FE440123BD8B4C53 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthPro;
+			packageProductDependencies = (
+				2A700C7F29ED3FD5003E6048 /* SnapKit */,
+				2A700CA329EFDD29003E6048 /* FirebaseAuth */,
+				2A700CA829F003BC003E6048 /* GoogleSignIn */,
+				2A700CAD29F132A4003E6048 /* Kingfisher */,
+				2A700CB129F153EE003E6048 /* KakaoSDKAuth */,
+				2A700CB329F153EE003E6048 /* KakaoSDKCommon */,
+				2A700CB529F153EE003E6048 /* KakaoSDKUser */,
+			);
+			productName = AuthPro;
+			productReference = 2A700C6729ED3241003E6048 /* AuthPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A700C5F29ED3241003E6048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2A700C6629ED3241003E6048 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2A700C6229ED3241003E6048 /* Build configuration list for PBXProject "AuthPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A700C5E29ED3241003E6048;
+			packageReferences = (
+				2A700C7E29ED3FD5003E6048 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				2A700CA229EFDD29003E6048 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				2A700CA729F003BB003E6048 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				2A700CAC29F132A4003E6048 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				2A700CB029F153EE003E6048 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+			);
+			productRefGroup = 2A700C6829ED3241003E6048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A700C6629ED3241003E6048 /* AuthPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A700C6529ED3241003E6048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A700C8729ED4E26003E6048 /* Launch Screen.storyboard in Resources */,
+				2A700C7429ED3243003E6048 /* Assets.xcassets in Resources */,
+				2A700CA129EFDB6D003E6048 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AFFA923FE440123BD8B4C53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthPro/Pods-AuthPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthPro/Pods-AuthPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuthPro/Pods-AuthPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56FADC12331352113D0E783F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A700C6329ED3241003E6048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6C9D2B29F3E8B300AD6B29 /* Env.swift in Sources */,
+				2A700C9329ED91A5003E6048 /* LoginViewController.swift in Sources */,
+				2A700C9D29EED088003E6048 /* Constants.swift in Sources */,
+				2A700C9B29EEAE14003E6048 /* UITextField+.swift in Sources */,
+				2A700CB929F26AC2003E6048 /* NaverInfoResponseModel.swift in Sources */,
+				2A700C6B29ED3241003E6048 /* AppDelegate.swift in Sources */,
+				2A700C9529EDB689003E6048 /* UIViewController+.swift in Sources */,
+				2A700CBC29F27FB5003E6048 /* FormInput.swift in Sources */,
+				2A700C6D29ED3241003E6048 /* SceneDelegate.swift in Sources */,
+				2A700C8B29ED5978003E6048 /* SocialLoginButton.swift in Sources */,
+				2A700C9929EE9CB8003E6048 /* UIView+.swift in Sources */,
+				2A700C8929ED4F0C003E6048 /* RootViewController.swift in Sources */,
+				2A700CA629EFE770003E6048 /* ProfileViewController.swift in Sources */,
+				2A700CBE29F28DDE003E6048 /* SignupViewController.swift in Sources */,
+				2A700C9F29EEEC86003E6048 /* String+.swift in Sources */,
+				2A700C8D29ED7DFC003E6048 /* SubmitButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A700C7929ED3243003E6048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A700C7A29ED3243003E6048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A700C7C29ED3243003E6048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11DDBE24A0F0E839F6CB3C5E /* Pods-AuthPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AuthPro/AuthPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UWKX6V9JV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuthPro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jusang.AuthPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A700C7D29ED3243003E6048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768692B9D16C0160A9EB5B19 /* Pods-AuthPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AuthPro/AuthPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UWKX6V9JV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuthPro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jusang.AuthPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A700C6229ED3241003E6048 /* Build configuration list for PBXProject "AuthPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A700C7929ED3243003E6048 /* Debug */,
+				2A700C7A29ED3243003E6048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A700C7B29ED3243003E6048 /* Build configuration list for PBXNativeTarget "AuthPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A700C7C29ED3243003E6048 /* Debug */,
+				2A700C7D29ED3243003E6048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A700C7E29ED3FD5003E6048 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		2A700CA229EFDD29003E6048 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		2A700CA729F003BB003E6048 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		2A700CAC29F132A4003E6048 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		2A700CB029F153EE003E6048 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A700C7F29ED3FD5003E6048 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A700C7E29ED3FD5003E6048 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		2A700CA329EFDD29003E6048 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A700CA229EFDD29003E6048 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2A700CA829F003BC003E6048 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A700CA729F003BB003E6048 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		2A700CAD29F132A4003E6048 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A700CAC29F132A4003E6048 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		2A700CB129F153EE003E6048 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A700CB029F153EE003E6048 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		2A700CB329F153EE003E6048 /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A700CB029F153EE003E6048 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		2A700CB529F153EE003E6048 /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A700CB029F153EE003E6048 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2A700C5F29ED3241003E6048 /* Project object */;
+}
